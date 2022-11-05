@@ -1,0 +1,32 @@
+Document object : 
+The document object represent a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page. The document object can be accessed with a window.document or just document.
+
+Each HTML document that gets loaded into a window becomes a document object. The document contains the contents of the page. Using document object, JavaScript can modify, add and delete the HTML elements, attributes CSS styles in the page
+
+The window object represents a window/tab containing a DOM document where as document object is property of window object that points to the DOM document loaded in that window.
+
+You can access a document object either using window.document property or using document object directly as window is global object. In the below example, title is the property of document object.
+
+The other major difference is that both window object and document object have properties and methods. Few method names are same in both objects but with different behavior. In the below example window.open() opens a new tab or window and document.open() creates a blank document within the window.
+
+The document object represents your web page. If you want to access any element in an HTML page, you always start with accessing the document object.
+
+
+Window Object:
+It represents the browser's window. All global JavaScript objects, functions, and variables automatically become members of the window object. Global variables are properties of the window object. Global functions are methods of the window object.
+
+The window object represents an open window in a browser. If a document contain frames (<iframe> tags), the browser creates one window object for the HTML document, and one additional window object for each frame.
+
+The window object represents a window in browser. An object of window is created automatically by the browser.
+
+Window is the object of browser, it is not the object of javascript. The javascript objects are string, array, date etc.
+
+The important methods of window object are as follows:
+
+Method	Description
+alert()-      displays the alert box containing message with ok button.
+confirm()-	  displays the confirm dialog box containing message with ok and cancel button.
+prompt()-	  displays a dialog box to get input from the user.
+open()-	      opens the new window.
+close()-	  closes the current window.
+setTimeout()-  performs action after specified time like calling function, evaluating expressions etc.
